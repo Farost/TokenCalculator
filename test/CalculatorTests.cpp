@@ -691,7 +691,7 @@ TEST(CalculatorTest, ForwardTest1) {
 }
 
 
-TEST(CalculatorTest, MaleExamplesTest) {
+TEST(CalculatorTest, MailExamplesTest) {
     {
         std::string str = "-1 + 5 - 3";
         EXPECT_TRUE(testCalcStr(str));
